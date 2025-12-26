@@ -14,11 +14,19 @@ Reassigning variables to different data types are possible in Python
 
 
 FUNCTIONS THAT HELP IDENTIFY DATA TYPES
-We can use two functions to help understand what data types exist,
+We can use two functions to help understand what data types exist, and checking 
+what type of data something is
+
+PROGRAMMING EXERCISE
+Create variables for your personal information and display them to the terminal
+
 """
 greeting = "hello world"
 print(greeting)
 print("hello world")
+
+user_response = input("What is your name? ")
+print("Hi", user_response)
 
 number = 42
 number = number + 1
